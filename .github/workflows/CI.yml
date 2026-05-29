@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Docker Container
         run: |
-          docker run -d -p 8080:80 --name portfolio-container devops-portfolio
+          docker run -d -p 9090:80 --name portfolio-container devops-portfolio
           sleep 5
 
       - name: Check Running Container
